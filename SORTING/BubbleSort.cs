@@ -13,6 +13,7 @@ public class HelloWorld
     }
     public static void BubbleSort(int[] nums) 
     {
+        int didSwap=0;
         int n=nums.Length;
         for( int i =n-1; i>=0;i--)
         {
@@ -23,7 +24,10 @@ public class HelloWorld
                     int temp=nums[j] ;
                     nums[j]=nums[j+1];
                     nums[j+1]=temp;
+                    didSwap=1;
                 }
+                if(didSwap==0)
+                break;
             }
         }
     }
