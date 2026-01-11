@@ -32,3 +32,7 @@ public class HelloWorld
         }
     }
 }
+
+//best tc -o(n)  -- sorted arreay
+// worst tc - o(n*n)
+// sc - o(1)
