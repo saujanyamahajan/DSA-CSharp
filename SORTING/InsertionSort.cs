@@ -27,3 +27,9 @@ public class HelloWorld
         }
     }
 }
+//tc
+//Worst case - o(n*n) 
+//Avg case - o(n*n) 
+//best case - o(n)
+
+//sc - o(n)
