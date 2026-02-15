@@ -49,3 +49,6 @@ private static void Merge (int[] arr, int left, int mid , int right)
             k++;
     }
 }
+
+//tc -O(nlogn)
+//sc - o(n)
