@@ -29,3 +29,5 @@ public class HelloWorld
         }
     }
 }
+
+//select min and place it in the satrt

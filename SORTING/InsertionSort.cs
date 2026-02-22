@@ -27,6 +27,7 @@ public class HelloWorld
         }
     }
 }
+//take one and   place it in correct order 
 //tc
 //Worst case - o(n*n) 
 //Avg case - o(n*n) 

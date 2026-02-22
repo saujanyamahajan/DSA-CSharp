@@ -33,6 +33,7 @@ public class HelloWorld
     }
 }
 
+// push the max at the end
 //best tc -o(n)  -- sorted arreay
 // worst tc - o(n*n)
 // sc - o(1)
