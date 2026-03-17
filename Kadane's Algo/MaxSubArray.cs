@@ -1,4 +1,6 @@
 // Find the maximum sum of a contiguous subarray
+//“I use Kadane’s algorithm where I decide at each step whether to extend the current subarray or start a new one.”
+
 
 public int MaxSubArray(int[] nums)
 {
@@ -13,3 +15,5 @@ public int MaxSubArray(int[] nums)
 
     return maxSum;
 }
+
+//[-2, 1, -3, 4, -1, 2, 1, -5, 4]
