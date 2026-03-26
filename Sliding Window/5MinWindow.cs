@@ -57,6 +57,7 @@ string MinWindow(string s, string t)
 }
 
 // Intuition
+//Expand window until you have all required characters → then shrink to make it minimum
 // Use a frequency map of t
 // Expand (right) → satisfy requirement
 // Shrink (left) → minimize window
