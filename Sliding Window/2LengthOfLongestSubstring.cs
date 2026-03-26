@@ -16,3 +16,11 @@ public class Solution {
         return maxLength;
     }
 }
+
+// Optimal Approach: Sliding Window + HashSet (O(n))
+
+// 👉 Idea:
+
+// Expand window (right)
+// If duplicate found → shrink window (left)
+// Track max length
