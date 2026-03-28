@@ -21,7 +21,7 @@ function firstOccurrenceBinary(arr, target)
         int mid=Math.floor((left+right)/2);
         if(arr[mid]==target)
             result= mid;
-            right=mid-1;
+            right=mid-1;// move left
         elseif (arr[mid]<target)
             left=mid+1;
         else

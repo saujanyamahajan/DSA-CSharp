@@ -22,7 +22,7 @@ function lastOccurrenceBinary(arr, target)
         int mid=Math.floor((left+right)/2);
         if(arr[mid]==target)
             result= mid;
-            left=mid+1;
+            left=mid+1;//move right
         elseif (arr[mid]<target)
             left=mid+1;
         else
