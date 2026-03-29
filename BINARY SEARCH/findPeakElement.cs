@@ -13,3 +13,5 @@ public class Solution {
         return left;
     }
 }
+
+// Time complexity → O(log n)
