@@ -7,3 +7,25 @@ function firstOccurrence(arr, target) {
     }
     return -1; // not found
 }
+
+
+//Binary Search
+function firstOccurrenceBinary(arr, target) 
+{
+    int result = -1;
+    int left=0;
+    int right=arr.Length-1;
+     
+     while(left<=right)
+     {
+        int mid=Math.floor((left+right)/2);
+        if(arr[mid]==target)
+            result= mid;
+            right=mid-1;
+        elseif (arr[mid]<target)
+            left=mid+1;
+        else
+            right=mid-1;
+     }
+    return result;
+}
