@@ -29,3 +29,7 @@ function firstOccurrenceBinary(arr, target)
      }
     return result;
 }
+
+
+// Unsorted → Linear Search (O(n))
+// Sorted → Binary Search (O(log n))
