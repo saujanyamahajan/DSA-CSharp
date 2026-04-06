@@ -20,7 +20,7 @@ public class Solution {
 // Optimal Approach: Sliding Window + HashSet (O(n))
 
 // 👉 Idea:
-
+//hashset only contains unique values
 // Expand window (right)
-// If duplicate found → shrink window (left)
+// If duplicate found → shrink window (left++)
 // Track max length
